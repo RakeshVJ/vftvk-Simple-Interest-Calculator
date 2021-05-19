@@ -13,8 +13,8 @@ function compute(){
     var year = new Date().getFullYear()+parseInt(Y);
     document.getElementById("result").innerHTML="If you deposit "+p+
     ", at an interest rate of "+rate+
-    ", you will receive an amoount of "+parseFloat(p*years*rate/100)+
-    ", by end of the year "+year;
+    ", you will receive an amount of "+parseFloat(p*years*rate/100)+
+    ", in the year "+year;
 }
 function updateRate(){
     var rateval = document.getElementById("rate").value;
